@@ -121,7 +121,7 @@ https://github.com/user-attachments/assets/e1ff69b1-57f8-4e6a-8691-020fbc652df5
 
 <img src="docs/readme/comparison.png" alt="기존 서비스와의 비교" width="100%"/>
 
-- 기존 영상 콘텐츠와 AI 동화 앱은 아이의 수준을 측정하지 않거나, 측정하더라도 전통문화 데이터와 학습 연계를 함께 갖추지 못했습니다.
+- 기존 AI 동화 앱은 아이의 문해력 수준을 측정하지 않거나, 측정하더라도 전통문화 데이터와 학습 연계를 함께 갖추지 못했습니다.
 
 <br/>
 
