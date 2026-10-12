@@ -149,14 +149,6 @@ https://github.com/user-attachments/assets/e1ff69b1-57f8-4e6a-8691-020fbc652df5
 | 한글또박또박 | 교육부 · 한국교육과정평가원, 2023 | 자모 인식 → 해독 준비 → 한글 해득으로 이어지는 한글 깨치기 단계 구분 |
 | 국어 기초어휘 선정 및 어휘 등급화 연구 | 국립국어원, 2023 | 단계별로 쓸 수 있는 어휘의 범위. 1등급(4\~6세) · 2등급(초1\~2) · 3등급(초3\~4) |
 
-
-https://github.com/user-attachments/assets/182078bf-29be-4c16-adb8-81aee74d089d
-
-
-
-https://github.com/user-attachments/assets/b05afaf5-1b83-46ad-9684-885b7df7bfcf
-
-
 <br/>
 
 - 국립국어원 어휘 등급은 만 4세 이상을 기준으로 만들어져 **영아기 어휘 기준이 비어 있습니다.**
