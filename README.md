@@ -246,11 +246,11 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>MVP(공모전 버전) 아키텍처 보기</b></summary>
+<summary><b>PoC(공모전 버전) 아키텍처 보기</b></summary>
 
 <br/>
 
-<img src="docs/readme/architecture-mvp.png" alt="MVP 시스템 아키텍처" width="600"/>
+<img src="docs/readme/architecture-mvp.png" alt="PoC 시스템 아키텍처" width="600"/>
 
 </details>
 
@@ -284,8 +284,8 @@ flowchart LR
 | --- | --- | --- | --- |
 | 한국민속문학사전 설화편 | 국립민속박물관 (2013) | 표제어 889개 | 동화의 원전. 줄거리와 핵심 화소를 생성 근거로 제공 |
 | 국어 기초어휘 선정 및 어휘 등급화 연구 | 국립국어원 (2023) | 1~5등급 어휘 40,000개 | 단계별 사용 어휘 범위 제어 |
-| 한국민족문화대백과사전 | 한국학중앙연구원 | 54편 | 원전 확장 (POC 단계) |
-| 한국민속문학사전 설화편 2권 | 국립민속박물관 | 55편 | 원전 확장 (POC 단계) |
+| 한국민족문화대백과사전 | 한국학중앙연구원 | 54편 | 원전 확장 (MVP 단계) |
+| 한국민속문학사전 설화편 2권 | 국립민속박물관 | 55편 | 원전 확장 (MVP 단계) |
 
 - 두 핵심 데이터 모두 문화체육관광부 산하 공공기관이 발행한 공식 연구 성과물입니다.
 
@@ -422,16 +422,16 @@ flowchart LR
 ### 6.4 기술적 한계 극복
 
 - 초기에는 HuggingFace 한국어 임베딩 모델(ko-sroberta-multitask)로 추천 시스템을 만들었지만, 모델 용량이 커서 서버 배포가 불가능했습니다.
-- Gemini가 의미 유사성을 직접 추론해 점수를 매기는 방식으로 구조를 바꿔 인프라 비용을 줄였고, 이후 POC 단계에서 Qdrant 기반 검색과 재정렬 구조로 발전시켰습니다.
+- Gemini가 의미 유사성을 직접 추론해 점수를 매기는 방식으로 구조를 바꿔 인프라 비용을 줄였고, 이후 MVP 단계에서 Qdrant 기반 검색과 재정렬 구조로 발전시켰습니다.
 
 <br/>
 
 <details>
-<summary><b>MVP(공모전 버전) AI Agent 설계도 보기</b></summary>
+<summary><b>PoC(공모전 버전) AI Agent 설계도 보기</b></summary>
 
 <br/>
 
-<img src="docs/readme/ai-agent-mvp.png" alt="MVP AI Agent 분기 처리 설계도" width="500"/>
+<img src="docs/readme/ai-agent-mvp.png" alt="PoC AI Agent 분기 처리 설계도" width="500"/>
 
 </details>
 
@@ -452,7 +452,7 @@ flowchart LR
 
 ## 8. 로드맵
 
-### 8.1 MVP: 공모전 버전
+### 8.1 PoC: 공모전 버전
 
 **"진단 → 생성 → 학습의 핵심 흐름을 완성한 첫 버전입니다."**
 
@@ -464,9 +464,9 @@ flowchart LR
 
 <br/>
 
-### 8.2 POC: 범정부 창업경진대회 버전
+### 8.2 MVP: 범정부 창업경진대회 버전
 
-**"MVP를 실제 서비스 수준으로 끌어올린 버전입니다."**
+**"PoC를 실제 서비스 수준으로 끌어올린 버전입니다."**
 
 | 변화 | 해결하려던 문제 | 구현 |
 | --- | --- | --- |
